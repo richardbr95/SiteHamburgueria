@@ -1,0 +1,117 @@
+header .nav-link {
+  color: #fff;
+  transition: all 0.3s ease;
+  transform: all 0.3s ease;
+}
+
+header .nav-link:hover {
+  color: chocolate;
+  transform: scale(1.2);
+}
+
+header .form-control {
+  margin-top: 2px;
+  height: 30px;
+  background: transparent;
+  border-color: chocolate;
+}
+
+header .form-control::placeholder {
+  color: #fff;
+}
+
+header .form-control:focus {
+  background-color: rgb(207, 131, 17);
+  border-color: chocolate;
+  color: #fff;
+  box-shadow: 1px 2px 3px sienna;
+}
+header .form-control:focus::placeholder {
+  background-color: rgb(207, 131, 17);
+  color: #fff;
+}
+
+header .btn {
+  padding: 4px;
+  color: #fff;
+  border: 1px solid chocolate;
+  transition: all 0.3s ease;
+  transform: all 0.3s ease;
+}
+
+header .btn:hover {
+  color: #fff;
+  background-color: chocolate;
+  transform: scale(1.1);
+}
+
+h1.text-uppercase.fw-bolder {
+  color: #000;
+  font-size: 2.7em;
+}
+
+.about-company p {
+  max-width: 560px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+  overflow-wrap: break-word;
+  font-weight: 700;
+}
+
+.about-company p.mt-4 {
+  font-weight: 400;
+}
+
+.parallax-section {
+  height: 200px;
+  background-image: url("../img/slides/loja-por-dentro.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.parallax-section-2 {
+  height: 200px;
+  background-image: url("../img/slides/hamburgues.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.container-fluid.slides {
+  background-color: #000;
+}
+.format-cards {
+  max-width: 1050px;
+  width: 100%;
+  margin: 0 auto;
+}
+i.fa-regular.fa-hand-pointer {
+  padding: 9px;
+  padding-left: 11px;
+  padding-right: 11px;
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 50%;
+}
+
+i.fa-solid.fa-burger {
+  padding: 9px;
+  padding-left: 11px;
+  padding-right: 11px;
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 50%;
+}
+h1.titulo-card {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 45px;
+}
+p.paragrafo-card {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
