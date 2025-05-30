@@ -1,0 +1,177 @@
+.parallax-section {
+  height: 200px;
+  background-image: url("../img/slides/loja-por-dentro.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.parallax-section-2 {
+  height: 200px;
+  background-image: url("../img/slides/hamburgues.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.parallax-section-3 {
+  height: 200px;
+  background-image: url("../img/slides/city-hamburguer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.parallax-section-4 {
+  height: 200px;
+  background-image: url("../img/slides/sobremesas.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.parallax-section-5 {
+  height: 200px;
+  background-image: url("../img/slides/milkshake.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.parallax-section-6 {
+  height: 200px;
+  background-image: url("../img/slides/cocktail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.container-fluid.slides {
+  background-color: #000;
+}
+.container-fluid.slides-sobremesa {
+  background-color: #fff;
+}
+.format-cards {
+  max-width: 1050px;
+  width: 100%;
+  margin: 0 auto;
+}
+i.fa-regular.fa-hand-pointer {
+  padding: 9px;
+  padding-left: 11px;
+  padding-right: 11px;
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 50%;
+}
+
+i.fa-solid.fa-burger {
+  padding: 9px;
+  padding-left: 11px;
+  padding-right: 11px;
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 50%;
+}
+
+i.fa-solid.fa-cheese {
+  padding: 9px;
+  padding-left: 11px;
+  padding-right: 11px;
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 50%;
+}
+i.fa-solid.fa-ice-cream {
+  padding: 9px;
+  padding-left: 11px;
+  padding-right: 11px;
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 50%;
+}
+
+i.fa-solid.fa-martini-glass {
+  padding: 9px;
+  padding-left: 11px;
+  padding-right: 11px;
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 50%;
+}
+i.fa-solid.fa-hat-cowboy {
+  font-size: 200px;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+h1.titulo-card {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 45px;
+}
+
+h1.titulo-card.sobremesa {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 45px;
+  display: flex;
+  justify-content: start;
+  width: 900px;
+}
+p.paragrafo-card {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h1.titulo-card.final {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 45px;
+  display: flex;
+  justify-content: start;
+  margin-left: 265px;
+}
+p.paragrafo-card.final {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: start;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 260px;
+}
+
+p.paragrafo-card.float {
+  display: flex;
+  position: relative;
+  padding-left: 112px;
+  margin-top: 150px;
+  font-size: 20px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.icons-themes {
+  color: #000;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-themes i {
+  margin-right: 60px;
+}
