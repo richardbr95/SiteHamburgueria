@@ -117,6 +117,9 @@ h1.titulo-card {
   margin-top: 20px;
   font-weight: 900;
   font-size: 45px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1.titulo-card.sobremesa {
@@ -131,6 +134,9 @@ p.paragrafo-card {
   margin-top: 30px;
   font-size: 20px;
   font-weight: 400;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1.titulo-card.final {

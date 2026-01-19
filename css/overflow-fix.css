@@ -2,6 +2,13 @@
    FIX PARA OVERFLOW HORIZONTAL EM MOBILE
    ======================================== */
 
+/* Melhorar renderização de texto */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
 /* Garantir que imagens apareçam */
 img {
   display: block;

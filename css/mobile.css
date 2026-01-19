@@ -2,6 +2,25 @@
    RESPONSIVIDADE MOBILE - Hamburgueria Smash
    ============================================ */
 
+/* Melhorar renderização de texto em mobile */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+li {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  -webkit-text-size-adjust: 100%;
+}
+
 /* Tablets (768px e abaixo) */
 @media (max-width: 768px) {
   /* Ajustes gerais */
