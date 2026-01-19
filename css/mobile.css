@@ -71,6 +71,18 @@ li {
   section {
     padding: 20px 0;
   }
+
+  /* Menu section - bebidas, lanches, sobremesas */
+  .d-flex.justify-content-center {
+    flex-direction: column !important;
+    gap: 10px;
+  }
+
+  .d-flex.justify-content-center h1 {
+    margin: 10px 0 !important;
+    font-size: 1.5rem !important;
+    width: 100%;
+  }
 }
 
 /* Smartphones landscape (480px a 767px) */
@@ -278,6 +290,17 @@ li {
   .fa-regular {
     font-size: inherit;
   }
+
+  /* Menu section em devices pequenos */
+  .d-flex.justify-content-center {
+    flex-direction: column !important;
+    gap: 8px;
+  }
+
+  .d-flex.justify-content-center h1 {
+    margin: 8px 0 !important;
+    font-size: 1.3rem !important;
+  }
 }
 
 /* Extra small devices (até 360px) */
@@ -308,5 +331,16 @@ li {
 
   h1.text-uppercase.fw-bolder {
     font-size: 1rem;
+  }
+
+  /* Menu section em devices muito pequenos */
+  .d-flex.justify-content-center {
+    flex-direction: column !important;
+    gap: 5px;
+  }
+
+  .d-flex.justify-content-center h1 {
+    margin: 5px 0 !important;
+    font-size: 1.1rem !important;
   }
 }
