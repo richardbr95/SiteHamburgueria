@@ -2,6 +2,18 @@
    FIX PARA OVERFLOW HORIZONTAL EM MOBILE
    ======================================== */
 
+/* Garantir que a fonte Roboto carregue corretamente */
+body,
+html {
+  font-family:
+    "Roboto",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Helvetica Neue",
+    sans-serif;
+}
+
 /* Melhorar renderização de texto */
 * {
   -webkit-font-smoothing: antialiased;
