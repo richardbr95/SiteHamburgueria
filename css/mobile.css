@@ -1,0 +1,286 @@
+/* ============================================
+   RESPONSIVIDADE MOBILE - Hamburgueria Smash
+   ============================================ */
+
+/* Tablets (768px e abaixo) */
+@media (max-width: 768px) {
+  /* Ajustes gerais */
+  * {
+    margin-top: auto;
+  }
+
+  /* Navbar adjustments */
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+
+  .navbar-brand img {
+    height: 35px !important;
+  }
+
+  /* Seção about */
+  .column {
+    padding: 20px 0;
+  }
+
+  .img {
+    padding: 20px 0;
+  }
+
+  .img img {
+    max-height: 180px;
+    margin-top: 15px !important;
+  }
+
+  .icon {
+    font-size: 0.9rem;
+  }
+
+  /* Row adjustments */
+  .row {
+    margin-bottom: 10px;
+  }
+
+  /* Espaçamento em seções */
+  section {
+    padding: 20px 0;
+  }
+}
+
+/* Smartphones landscape (480px a 767px) */
+@media (max-width: 767px) and (min-width: 481px) {
+  .navbar-toggler {
+    padding: 0.15rem 0.25rem;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.3rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.85rem;
+    margin: 5px 0;
+  }
+
+  h1.titulo-card {
+    font-size: 20px;
+  }
+
+  p.paragrafo-card {
+    font-size: 13px;
+  }
+}
+
+/* Smartphones portrait (até 480px) */
+@media (max-width: 480px) {
+  /* Header */
+  header .navbar-brand {
+    font-size: 0.95rem;
+    gap: 5px;
+  }
+
+  header .navbar-brand img {
+    height: 30px !important;
+  }
+
+  /* Navbar items */
+  .navbar-nav {
+    padding-top: 10px;
+  }
+
+  .nav-item {
+    margin: 5px 0 !important;
+  }
+
+  .nav-link {
+    padding: 5px 0 !important;
+    font-size: 0.85rem !important;
+  }
+
+  /* Search form */
+  .d-flex.flex-column {
+    gap: 8px;
+  }
+
+  .form-control,
+  .btn {
+    font-size: 0.8rem;
+    padding: 6px 8px;
+  }
+
+  /* Carousel */
+  .carousel-caption {
+    bottom: 5px;
+    padding: 5px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1rem;
+    margin-bottom: 3px;
+  }
+
+  .carousel-caption p {
+    font-size: 0.65rem;
+    margin: 0;
+  }
+
+  /* Section titles */
+  h1.text-uppercase.fw-bolder {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  /* Icons */
+  .icon i {
+    font-size: 1rem !important;
+    margin: 0 3px;
+  }
+
+  /* About section */
+  .about-company p {
+    font-size: 13px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+
+  /* Cards */
+  .format-cards {
+    padding: 0 10px;
+  }
+
+  .card-image {
+    padding: 10px 0;
+  }
+
+  .card-image img {
+    margin: 10px 0 !important;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    display: block;
+  }
+
+  h1.titulo-card {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+
+  h1.titulo-card.final {
+    text-align: center;
+    margin-left: 0 !important;
+  }
+
+  p.paragrafo-card {
+    font-size: 11px;
+    margin-top: 8px;
+    line-height: 1.3;
+  }
+
+  p.paragrafo-card.final {
+    margin-bottom: 30px !important;
+    text-align: center;
+  }
+
+  /* Seções paralax */
+  .parallax-section,
+  .parallax-section-2,
+  .parallax-section-3,
+  .parallax-section-4,
+  .parallax-section-5,
+  .parallax-section-6 {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .parallax-section h1,
+  .parallax-section-2 h1,
+  .parallax-section-3 h1,
+  .parallax-section-4 h1,
+  .parallax-section-5 h1,
+  .parallax-section-6 h1 {
+    font-size: 18px !important;
+    text-align: center;
+  }
+
+  /* Icons em paralax */
+  .parallax-section i,
+  .parallax-section-2 i,
+  .parallax-section-3 i,
+  .parallax-section-4 i,
+  .parallax-section-5 i,
+  .parallax-section-6 i {
+    font-size: 0.8rem !important;
+    display: none;
+  }
+
+  /* Responsive container */
+  .container-fluid {
+    padding: 0;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Bootstrap rows */
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+
+  /* Espaçamento geral */
+  section {
+    padding: 15px 0;
+  }
+
+  /* Icons themes */
+  .icons-themes {
+    font-size: 30px;
+  }
+
+  .icons-themes i {
+    margin-right: 15px;
+  }
+
+  /* Adjustments for font awesome icons */
+  .fa-solid,
+  .fa-regular {
+    font-size: inherit;
+  }
+}
+
+/* Extra small devices (até 360px) */
+@media (max-width: 360px) {
+  header .navbar-brand {
+    font-size: 0.85rem;
+  }
+
+  .carousel-caption h1 {
+    font-size: 0.9rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.6rem;
+  }
+
+  h1.titulo-card {
+    font-size: 14px;
+  }
+
+  p.paragrafo-card {
+    font-size: 10px;
+  }
+
+  .about-company p {
+    font-size: 12px;
+  }
+
+  h1.text-uppercase.fw-bolder {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,229 @@
+/* ========================================
+   FIX PARA OVERFLOW HORIZONTAL EM MOBILE
+   ======================================== */
+
+/* Garantir que imagens apareçam */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+/* Previne overflow horizontal em toda a página */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Navbar fixa sem extrapolação */
+header {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+header .navbar {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  padding: 0 !important;
+}
+
+header .container-fluid {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Remove margens/padding que causam overflow */
+header .navbar-collapse {
+  overflow-x: hidden;
+}
+
+/* Ajustes para mobile */
+@media (max-width: 992px) {
+  header .navbar {
+    padding: 0 !important;
+  }
+
+  header .container-fluid {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  html,
+  body,
+  header,
+  header .navbar,
+  header .container-fluid {
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+  }
+
+  header .navbar-brand {
+    margin-right: auto !important;
+    white-space: nowrap;
+  }
+
+  header .nav-link {
+    padding: 8px 10px;
+  }
+
+  header .form-control {
+    height: 35px;
+    font-size: 0.9rem;
+  }
+
+  header .btn {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+
+  header .navbar-nav {
+    gap: 0;
+  }
+
+  header .nav-item {
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+  }
+
+  header .me-md-2 {
+    margin-right: 0 !important;
+  }
+
+  header .me-md-5 {
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  html,
+  body,
+  header,
+  header .navbar,
+  header .container-fluid {
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+  }
+
+  header .navbar {
+    padding: 0.5rem 0 !important;
+  }
+
+  header .container-fluid {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  header .navbar-brand {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    margin-right: 8px !important;
+    padding: 0;
+  }
+
+  header .navbar-brand img {
+    height: 30px !important;
+    width: auto !important;
+    margin-right: 4px !important;
+  }
+
+  header .navbar-toggler {
+    padding: 0.15rem 0.25rem;
+    margin-left: auto;
+  }
+
+  header .navbar-toggler-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    background-size: 100% 100%;
+  }
+
+  header .collapse {
+    overflow-x: hidden;
+  }
+
+  header .navbar-collapse {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  header .navbar-nav {
+    gap: 0;
+    width: 100%;
+  }
+
+  header .nav-item {
+    margin: 0 !important;
+    padding: 0 2px;
+  }
+
+  header .nav-link {
+    padding: 5px 6px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .d-flex.flex-column {
+    width: 100%;
+    gap: 6px;
+  }
+
+  header .form-control {
+    height: 30px;
+    font-size: 0.75rem;
+    padding: 4px 8px;
+  }
+
+  header .btn {
+    padding: 4px 6px;
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }
+
+  header .me-md-2,
+  header .me-md-5 {
+    margin-right: 0 !important;
+  }
+
+  header .mb-2 {
+    margin-bottom: 6px !important;
+  }
+
+  header .mb-md-0 {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 360px) {
+  header .navbar-brand {
+    font-size: 0.8rem;
+  }
+
+  header .navbar-brand img {
+    height: 25px !important;
+  }
+
+  header .nav-link {
+    padding: 4px 5px;
+    font-size: 0.7rem;
+  }
+
+  header .form-control,
+  header .btn {
+    font-size: 0.65rem;
+    padding: 3px 5px;
+  }
+}

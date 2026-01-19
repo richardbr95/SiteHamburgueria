@@ -3,4 +3,77 @@
   padding: 0;
   font-family: "Roboto", cursive;
   font-weight: 500;
+  box-sizing: border-box;
+}
+
+/* Base Responsividade */
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Carousel responsivo */
+.carousel-caption h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+.carousel-caption p {
+  font-size: clamp(0.9rem, 3vw, 1.3rem);
+}
+
+/* Ajustes gerais para mobile */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container,
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .carousel-caption {
+    margin-bottom: 0 !important;
+    bottom: 20px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  .container,
+  .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .carousel-caption {
+    bottom: 10px;
+    padding: 10px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.1rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.75rem;
+  }
 }

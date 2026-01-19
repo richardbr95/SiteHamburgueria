@@ -1,3 +1,7 @@
+header {
+  overflow-x: hidden;
+}
+
 header .nav-link {
   padding: 20px;
   color: #fff;
@@ -63,4 +67,106 @@ h1.text-uppercase.fw-bolder {
 
 .about-company p.mt-4 {
   font-weight: 400;
+}
+
+/* Media Queries para Mobile */
+@media (max-width: 768px) {
+  header {
+    overflow-x: hidden;
+  }
+
+  header .navbar {
+    overflow-x: hidden;
+  }
+
+  header .navbar-brand {
+    margin-right: auto !important;
+  }
+
+  header .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-x: hidden;
+  }
+
+  header .nav-link {
+    padding: 8px 10px;
+    font-size: 0.85rem;
+  }
+
+  header .form-control {
+    height: 35px;
+    font-size: 0.9rem;
+  }
+
+  header .btn {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+
+  h1.text-uppercase.fw-bolder {
+    font-size: 1.8em;
+    margin-top: 20px;
+  }
+
+  .about-company p {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  .icon {
+    margin: 15px 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  header,
+  header .navbar,
+  header .container-fluid {
+    overflow-x: hidden;
+  }
+
+  header .navbar-brand {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    margin-right: 10px !important;
+  }
+
+  header .nav-link {
+    padding: 5px 8px;
+    font-size: 0.75rem;
+  }
+
+  header .form-control {
+    font-size: 0.75rem;
+    height: 30px;
+  }
+
+  header .btn {
+    padding: 4px 8px;
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }
+
+  header .collapse {
+    overflow-x: hidden;
+  }
+
+  header .navbar-nav {
+    gap: 0;
+  }
+
+  header .nav-item {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+
+  h1.text-uppercase.fw-bolder {
+    font-size: 1.3em;
+  }
+
+  .about-company p {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
 }
